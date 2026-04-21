@@ -106,11 +106,11 @@ Performed using **RandomizedSearchCV** with cross-validation for:
 
 The models were compared based on performance metrics:
 
-| Model             | RMSE           | MAE | R² |
-| ----------------- | -------------- | --- | -- |
-| Random Forest     | ✔️             | ✔️  | ✔️ |
-| Gradient Boosting | ✔️             | ✔️  | ✔️ |
-| XGBoost           | ⭐ Best Overall |     |    |
+| Model             | MAE            | MAE            | R²             |
+| ----------------- | -------------- | -------------- | -------------- |
+| Random Forest     | 3685.48        | 9420.02        | 0.663          |
+| Gradient Boosting | 3746.46        | 9451.67        | 0.661          |
+| XGBoost           | 3450.45        | 9297.31        | 0.672          |
 
 > 🏆 The best model is selected based on combined performance across all metrics.
 
